@@ -1,0 +1,22 @@
+# Student Management API
+
+A backend API built with FastAPI to manage students, marks, and performance analytics.
+
+## Features
+- Add student
+- Get all students
+- Get student by ID
+- Update student
+- Get passed students
+- Get failed students
+- Get topper
+- Get class average
+
+## Tech Stack
+- Python
+- FastAPI
+- Pydantic
+
+## How to Run
+pip install fastapi uvicorn
+uvicorn main:app --reload
